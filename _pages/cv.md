@@ -12,33 +12,23 @@ redirect_from:
 Education
 ======
 * M.Sc. in Management & Technology, Technical University of Munich (TUM), 2022-2024
-* B.S. in GitHub, GitHub University, 2012
+* B.Sc. in Industrial Engineering, Technical University Darmstadt, 2018-2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Oct. 2022-2024: UniCredit Bank AG
+  * Large Corporates
+  * SME/Midcap
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Nov. 2018-2019: Pickware GmbH
+  * Business Development
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* R
+  * xx
+* Java
 
 Publications
 ======
