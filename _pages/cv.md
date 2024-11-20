@@ -25,10 +25,8 @@ Work experience
 ======
 * UniCredit Bank AG (Working Student) - Large Corporates (Consumer, Retail & Healthcare)
   * Oct. 2023 - Oct. 2024 (Munich)
-* UniCredit Bank AG (Working Student) - SME/Midcap 
-  * Oct. 2022 - Oct. 2023 (Frankfurt)
-* UniCredit Bank AG (Intern) - SME/Midcap 
-  * May 2022 - Aug. 2022 (Frankfurt)
+* UniCredit Bank AG (Intern + Working Student) - SME/Midcap 
+  * May. 2022 - Oct. 2023 (Frankfurt)
 * Pickware GmbH (Working Student) - Business Development
   * Nov. 2018 - Oct. 2019
   
