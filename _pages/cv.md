@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="/files/cv.pdf" download style="display: inline-block; margin-top: 10px; padding: 5px 10px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Download CV</a>
+<h1 class="page__title" style="display: inline;">CV</h1>
+<a href="/files/cv.pdf" download style="display: inline-block; margin-left: 15px; padding: 5px 10px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">Download CV</a>
 
 Education
 ======
