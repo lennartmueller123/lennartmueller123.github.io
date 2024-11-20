@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="/files/cv.pdf" download style="display: inline-block; margin-top: 10px; padding: 5px 10px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Download CV</a>
+<a href="/files/CV.pdf" download style="display: inline-block; margin-top: 10px; padding: 5px 10px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Download CV</a>
 
 Education
 ======
