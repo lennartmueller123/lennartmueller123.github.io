@@ -14,12 +14,15 @@ Want to learn more about me and my work? Just ask my personal chatbot and start 
 <div>
   <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" target="_blank" style="display: inline-block; padding: 5px 10px; color: white; background-color: #007BFF; border-radius: 5px; text-decoration: none;">Click here</a>
 </div>
-<div>
+<div style="margin-top: 20px;">
 </div>
 
 Experience
 ======
-I have a strong academic background in finance and computer engineering. My professional experience includes working at UniCredit Bank AG, where I performed in-depth data analyses, developed financial reports and created a KPI tracking dashboard for strategic decision making. I also gained valuable interdisciplinary experience at Pickware GmbH in Business Development and Customer Support, where I worked closely with programmers to troubleshoot software issues and manage product development. These roles have equipped me with a solid mix of analytical, technical and collaborative skills that I look forward to utilising on future data-driven projects.
+I have a strong academic background in finance and computer engineering. My professional experience includes working at UniCredit Bank AG, where I performed in-depth data analyses, developed financial reports and created a KPI tracking dashboard for strategic decision making. I also gained valuable interdisciplinary experience at Pickware GmbH in Business Development and Customer Support, where I worked closely with programmers to troubleshoot software issues and manage product development. 
+<div>
+These roles have equipped me with a solid mix of analytical, technical and collaborative skills that I look forward to utilising on future data-driven projects.
+</div>
 
 Academic Background
 ======
