@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <h1>
-  <button onclick="window.location.href='/files/CV.pdf'" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Download My CV</button>
+  <a href="/files/CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">Download My CV</a>
 </h1>
 
 Education
