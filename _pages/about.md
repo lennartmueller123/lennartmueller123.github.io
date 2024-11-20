@@ -15,6 +15,7 @@ Want to learn more about me and my work? Just ask my personal chatbot and start 
   <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" target="_blank" style="display: inline-block; padding: 10px 20px; color: white; background-color: #007BFF; border-radius: 5px; text-decoration: none;">Click here</a>
 </div>
 </div>
+  
 </div>
 
 Experience
@@ -23,4 +24,7 @@ I have a strong academic background in finance and computer engineering. My prof
 
 Academic Background
 ======
-I hold a strong academic foundation that began with my Bachelor’s degree in Industrial Engineering, specializing in Mechanical Engineering, from the Technical University of Darmstadt. Building on this, I pursued a Master’s degree in Management and Technology with a specialization in Finance and Computer Engineering at the Technical University of Munich (TUM). To further expand my expertise, I completed an Accelerated Certificate Program (ACP) in Data Science at the University of California, Irvine (UCI).                                                                      This diverse academic background has provided me with a unique blend of engineering, financial analysis, and data science skills that position me well for tackling complex analytical challenges.
+I hold a strong academic foundation that began with my Bachelor’s degree in Industrial Engineering, specializing in Mechanical Engineering, from the Technical University of Darmstadt. Building on this, I pursued a Master’s degree in Management and Technology with a specialization in Finance and Computer Engineering at the Technical University of Munich (TUM). To further expand my expertise, I completed an Accelerated Certificate Program (ACP) in Data Science at the University of California, Irvine (UCI).
+</div>
+  This diverse academic background has provided me with a unique blend of engineering, financial analysis, and data science skills that position me well for tackling complex analytical challenges.
+</div>
