@@ -12,7 +12,7 @@ My name is Lennart Müller, and I am a dedicated professional with a background 
 Want to learn more about me and my work? Just ask my personal chatbot and start a conversation!
 <div>
 <div>
-  <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" style="display: inline-block; padding: 10px 20px; color: white; background-color: #007BFF; border-radius: 5px; text-decoration: none;">Click here</a>
+  <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" target="_blank" style="display: inline-block; padding: 10px 20px; color: white; background-color: #007BFF; border-radius: 5px; text-decoration: none;">Click here</a>
 </div>
 </div>
 
