@@ -7,7 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-My name is Lennart Müller, and I am a dedicated professional with a background in finance and computer engineering. I am passionate about utilising data analytics and technology to develop impactful solutions, with a keen interest in using AI and machine learning to solve complex problems. My experience includes developing analytics tools, collaborating with interdisciplinary teams and working on innovative projects in both corporate and academic environments. I am committed to continuous learning and want to contribute to advances that make a meaningful difference.                                                                                                                                                      Want to learn more about me and my work? Just ask my personal chatbot and start a conversation! --> **Click here** <--
+My name is Lennart Müller, and I am a dedicated professional with a background in finance and computer engineering. I am passionate about utilising data analytics and technology to develop impactful solutions, with a keen interest in using AI and machine learning to solve complex problems. My experience includes developing analytics tools, collaborating with interdisciplinary teams and working on innovative projects in both corporate and academic environments. I am committed to continuous learning and want to contribute to advances that make a meaningful difference.                                                                                                                                                      Want to learn more about me and my work? Just ask my personal chatbot and start a conversation!
+<div>
+  <a href="[https://example.com](https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller)" style="display: inline-block; padding: 10px 20px; color: white; background-color: #007BFF; border-radius: 5px; text-decoration: none;">Click here</a>
+</div>
 
 Experience
 ======
