@@ -24,7 +24,7 @@ author:
   avatar           : "Profile.jpeg"
   name             : "Lennart Müller"
   pronouns         : # example: "she/her"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Analytical and results-driven corporate banking analyst with experience in financial analysis, business development, and data science. Skilled at leveraging technology to create efficient solutions and enhance decision-making processes."
   location         : "California (USA)"
   employer         : "University of California, Irvine"
   uri              : # URL
@@ -36,8 +36,9 @@ author:
   github           : "lennartmueller123"
 
   # Social media
-  instagram        : "_lenni_99"
   linkedin         : "lennartmüller"
+  instagram        : "_lenni_99"
+
 
 
 # Publication Category - The following the list of publication categories and their headings
