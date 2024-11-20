@@ -11,43 +11,31 @@ redirect_from:
 
 Education
 ======
-* M.Sc. in Management & Technology, Technical University of Munich (TUM), 2022-2024
-* B.Sc. in Industrial Engineering, Technical University Darmstadt, 2018-2021
+* Accelerated Certificate Program in Data Science (ACP), UC Irvine
+  * Sep. 2024 - Dec. 2024
+  * Specialization: Data Science
+* M.Sc. in Management & Technology, Technical University of Munich (TUM)
+  * Oct. 2022 - Dec. 2024
+  * Specialization: Finance & Accounting; Computer Engineering
+* B.Sc. in Industrial Engineering, Technical University Darmstadt
+  * Oct. 2017 - Oct. 2021
+  * Specialization: Mechanical Engineering
 
 Work experience
 ======
-* Oct. 2022-2024: UniCredit Bank AG
-  * Large Corporates
-  * SME/Midcap
-
-* Nov. 2018-2019: Pickware GmbH
-  * Business Development
+* UniCredit Bank AG (Working Student) - Large Corporates (Consumer, Retail & Healthcare)
+  * Oct. 2023 - Oct. 2024 (Munich)
+* UniCredit Bank AG (Working Student) - SME/Midcap 
+  * Oct. 2022 - Oct. 2023 (Frankfurt)
+* UniCredit Bank AG (Intern) - SME/Midcap 
+  * May 2022 - Aug. 2022 (Frankfurt)
+* Pickware GmbH (Working Student) - Business Development
+  * Nov. 2018 - Oct. 2019
   
 Skills
 ======
-* Python
-* R
-  * xx
-* Java
+* Python (Proficient)
+* R (Beginner)
+* Java (Beginner)
+* SQL (Beginner)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
