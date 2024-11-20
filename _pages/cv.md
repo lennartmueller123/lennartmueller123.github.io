@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="/files/CV.pdf" download style="display: inline-block; margin-left: 15px; padding: 5px 10px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">Download CV1</a>
-
 Education
 ======
 * Accelerated Certificate Program in Data Science (ACP), UC Irvine
