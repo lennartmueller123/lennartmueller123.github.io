@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<h1 <a href="/files/CV.pdf" download>Download My CV</a></h1>
+
 Education
 ======
 * Accelerated Certificate Program in Data Science (ACP), UC Irvine
