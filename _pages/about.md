@@ -29,6 +29,6 @@ These roles have equipped me with a solid mix of analytical, technical and colla
 Academic Background
 ======
 I hold a strong academic foundation that began with my Bachelor’s degree in Industrial Engineering, specializing in Mechanical Engineering, from the Technical University of Darmstadt. Building on this, I pursued a Master’s degree in Management and Technology with a specialization in Finance and Computer Engineering at the Technical University of Munich (TUM). To further expand my expertise, I completed an Accelerated Certificate Program (ACP) in Data Science at the University of California, Irvine (UCI).
-<div style="margin-top: 1px;">
+<div style="line-height: 1.0;">
 This diverse academic background has provided me with a unique blend of engineering, financial analysis, and data science skills that position me well for tackling complex analytical challenges.
 </div>
