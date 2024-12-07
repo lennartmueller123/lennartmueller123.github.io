@@ -1,7 +1,11 @@
 ---
 title: "Master's Thesis"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/Thesis.png'>"
+excerpt: "Development and testing of innovative mobility prototypes to improve the mobility and quality of life of older people<br/><img src='/images/Thesis.png'>"
 collection: projects
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Abstract**
+This study examines how (digital) mobility solutions can support the mobility needs of older people against the current trend of population aging and increasing digitalization. Using a Design Science Research (DSR) approach, the research explores older people’s mobility behavior, digital literacy, and the factors influencing their acceptance of technology.
+Four prototypes of mobility aids were developed and evaluated through the Senior Technology Acceptance Model (STAM) to assess older people’s willingness to adopt these innovations. Additionally, Multi-Actor Multi-Criteria Analysis (MAMCA) was used to gather further insights from older people and other relevant stakeholders and to provide a broader, multi-perspective assessment of these prototypes. To better categorize the different needs of the heterogeneous group of older people, a cluster analysis was carried out in which representative personas were created based on factors such as age, health, and digital literacy.
+The results highlight the barriers and motivators in the various groups of older people and emphasize the need for inclusive and barrier-free mobility concepts that are tailored to their specific needs. These insights contribute to the development of mobility solutions that enhance independence, quality of life, and social inclusion for older people. They include the need for customized and adaptable mobility aids, the integration of mobility aids into familiar systems, features that promote social interactions, and a support network that promotes and accompanies the adoption of new technologies.
+*Keywords: Older People, Inclusive Mobility, Digital Literacy, Technology Acceptance, STAM*
