@@ -13,7 +13,8 @@ redirect_from:
   <a href="/files/CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4A4E52; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">Download My CV</a>
 </h1>
 
-<h2>Education</h2>
+Education
+======
 * Accelerated Certificate Program in Data Science (ACP), UC Irvine
   * Sep. 2024 - Dec. 2024
   * Specialization: Data Science
