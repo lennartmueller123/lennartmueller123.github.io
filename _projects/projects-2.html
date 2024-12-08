@@ -9,58 +9,85 @@ collection: projects
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Zoom Example</title>
+    <title>Image Lightbox Example</title>
     <style>
-        /* Style for the image */
+        /* Style for the page content */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Thumbnail image */
         .thumbnail {
-            width: 300px; /* Adjust the thumbnail size */
+            width: 500px; /* Adjust thumbnail size */
             cursor: pointer;
             transition: transform 0.2s ease;
         }
 
         .thumbnail:hover {
-            transform: scale(5.0); /* Slight zoom effect on hover */
+            transform: scale(3.0); /* Zoom effect on hover */
         }
 
-        /* Style for the modal (enlarged view) */
-        .modal {
+        /* Lightbox background overlay */
+        .lightbox {
             display: none;
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
             justify-content: center;
             align-items: center;
             z-index: 1000;
         }
 
-        .modal img {
+        /* Enlarged image in the lightbox */
+        .lightbox img {
             max-width: 90%;
             max-height: 90%;
             border: 2px solid white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
         }
 
-        .modal:target {
-            display: flex;
+        /* Close button */
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <!-- Thumbnail image -->
-    <a href="#img1">
-        <img src="/images/Markowitz Optimizer.png" alt="Thumbnail" class="thumbnail">
-    </a>
+    <!-- Page Content -->
+    <h1>Welcome to My Website</h1>
+    <p>Click the image to enlarge it:</p>
+    <img src="your-image-url.jpg" alt="Thumbnail" class="thumbnail" onclick="openLightbox()">
 
-    <!-- Modal for enlarged image -->
-    <div id="img1" class="modal">
-        <a href="#">
-            <img src="/images/Markowitz Optimizer.png" alt="Enlarged Image">
-        </a>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img src="your-image-url.jpg" alt="Enlarged Image">
     </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Function to open the lightbox
+        function openLightbox() {
+            document.getElementById('lightbox').style.display = 'flex';
+        }
+
+        // Function to close the lightbox
+        function closeLightbox() {
+            document.getElementById('lightbox').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
+
 
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
