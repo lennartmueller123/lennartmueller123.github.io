@@ -4,4 +4,63 @@ excerpt: "Python Project on Portfolio Optimization <br/><img src='/images/Markow
 collection: projects
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Zoom Example</title>
+    <style>
+        /* Style for the image */
+        .thumbnail {
+            width: 300px; /* Adjust the thumbnail size */
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.1); /* Slight zoom effect on hover */
+        }
+
+        /* Style for the modal (enlarged view) */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border: 2px solid white;
+        }
+
+        .modal:target {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <!-- Thumbnail image -->
+    <a href="#img1">
+        <img src="/images/Markowitz Optimizer.png" alt="Thumbnail" class="thumbnail">
+    </a>
+
+    <!-- Modal for enlarged image -->
+    <div id="img1" class="modal">
+        <a href="#">
+            <img src="/images/Markowitz Optimizer.png" alt="Enlarged Image">
+        </a>
+    </div>
+</body>
+</html>
+
+
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
