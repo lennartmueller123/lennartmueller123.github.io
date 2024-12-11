@@ -13,77 +13,121 @@ redirect_from:
   <a href="/files/CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4A4E52; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">Download My CV</a>
 </h1>
 
-<h2>Education</h2>
-<h3>University of California, Irvine</h3>
-<p><strong>Accelerated Certificate Program in Data Science</strong></p>
-<p>Expected Dec. 2024</p>
-
-<h3>Technical University of Munich</h3>
-<p><strong>M.Sc., Management & Technology</strong></p>
-<p>Specialization: Finance & Accounting / Computer Engineering</p>
-<p>Expected Dec. 2024</p>
-
-<h3>Technical University of Darmstadt</h3>
-<p><strong>B.Sc., Industrial Engineering</strong></p>
-<p>Specialization: Mechanical Engineering</p>
-<p>Completed Oct. 2021</p>
-
-<h2>Experience</h2>
-<h3>UniCredit Bank AG</h3>
-<p><strong>Assistant, Corporate Banking – Large Corporates & SME/Midcap</strong></p>
-<p>Munich & Frankfurt, Germany | Oct. 2022 – Oct. 2024</p>
-<ul>
-  <li>Evaluated client financing requests by preparing financial analyses and conducting market and competitive research to support credit decisions</li>
-  <li>Contributed to the creation of an interactive tool providing a comprehensive client portfolio overview</li>
-  <li>Designed an Excel dashboard for KPI tracking and internal benchmarking to improve decision-making and efficiency across the departments</li>
-  <li>Supervised and coordinated tasks among working students in the corporate banking team, ensuring effective task distribution and smooth workflow management</li>
-</ul>
-
-<h3>Pickware GmbH</h3>
-<p><strong>Assistant, Business Development</strong></p>
-<p>Darmstadt, Germany | Nov. 2018 – Oct. 2019</p>
-<ul>
-  <li>Engaged with and advised potential clients online and at trade fairs, offering tailored product demonstrations to drive customer acquisition</li>
-  <li>Diagnosed and resolved software issues for customers</li>
-  <li>Collaborated with cross-functional teams to manage product development, aligning with customer demands</li>
-</ul>
-
-<h2>Skills</h2>
-<ul>
-  <li><strong>Technology:</strong> Python (Proficient), Java (Beginner), R (Beginner)</li>
-  <li><strong>Languages:</strong> German (Native), English (Fluent)</li>
-  <li><strong>Office:</strong> Microsoft Word, Excel, PowerPoint, Teams (Professional)</li>
-</ul>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aligned Heading</title>
+    <title>Lennart Müller's CV</title>
     <style>
-        .education-entry {
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .entry {
+            margin-bottom: 15px;
+        }
+        .entry-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 10px;
         }
-        .education-entry h3 {
+        .entry-header h3 {
             margin: 0;
             font-size: 1.2em;
         }
-        .education-entry p {
+        .entry-header p {
             margin: 0;
             font-size: 1em;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="education-entry">
-        <h3>Technical University of Munich</h3>
-        <p>Expected Dec. 2024</p>
+    <h1>Lennart Müller</h1>
+
+    <div class="section education">
+        <h2>Education</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <h3>University of California, Irvine</h3>
+                <p>Expected Dec. 2024</p>
+            </div>
+            <p><strong>Accelerated Certificate Program in Data Science</strong></p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <h3>Technical University of Munich</h3>
+                <p>Expected Dec. 2024</p>
+            </div>
+            <p><strong>M.Sc., Management & Technology</strong></p>
+            <p>Specialization: Finance & Accounting / Computer Engineering</p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <h3>Technical University of Darmstadt</h3>
+                <p>Completed Oct. 2021</p>
+            </div>
+            <p><strong>B.Sc., Industrial Engineering</strong></p>
+            <p>Specialization: Mechanical Engineering</p>
+        </div>
     </div>
-    <p><strong>M.Sc., Management & Technology</strong></p>
-    <p>Specialization: Finance & Accounting / Computer Engineering</p>
+
+    <div class="section experience">
+        <h2>Experience</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <h3>UniCredit Bank AG</h3>
+                <p>Munich & Frankfurt, Germany | Oct. 2022 – Oct. 2024</p>
+            </div>
+            <p><strong>Assistant, Corporate Banking – Large Corporates & SME/Midcap</strong></p>
+            <ul>
+                <li>Evaluated client financing requests by preparing financial analyses and conducting market and competitive research to support credit decisions</li>
+                <li>Contributed to the creation of an interactive tool providing a comprehensive client portfolio overview</li>
+                <li>Designed an Excel dashboard for KPI tracking and internal benchmarking to improve decision-making and efficiency across the departments</li>
+                <li>Supervised and coordinated tasks among working students in the corporate banking team, ensuring effective task distribution and smooth workflow management</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <h3>Pickware GmbH</h3>
+                <p>Darmstadt, Germany | Nov. 2018 – Oct. 2019</p>
+            </div>
+            <p><strong>Assistant, Business Development</strong></p>
+            <ul>
+                <li>Engaged with and advised potential clients online and at trade fairs, offering tailored product demonstrations to drive customer acquisition</li>
+                <li>Diagnosed and resolved software issues for customers</li>
+                <li>Collaborated with cross-functional teams to manage product development, aligning with customer demands</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Technology:</strong> Python (Proficient), Java (Beginner), R (Beginner)</li>
+            <li><strong>Languages:</strong> German (Native), English (Fluent)</li>
+            <li><strong>Office:</strong> Microsoft Word, Excel, PowerPoint, Teams (Professional)</li>
+        </ul>
+    </div>
 </body>
 </html>
+
