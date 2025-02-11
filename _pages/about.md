@@ -7,10 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align: center;">
-  <img src="/images/Hintergrund.png" alt="Hintergrund" style="width: 200px; border-radius: 50%; border: 2px solid #ddd; padding: 5px;">
-</div>
-
 <p style="margin-bottom: 0;">
 My name is Lennart Müller, and I am a dedicated professional with a background in finance and computer engineering. I am passionate about utilising data analytics and technology to develop impactful solutions, with a keen interest in using AI and machine learning to solve complex problems. My experience includes developing analytics tools, collaborating with interdisciplinary teams and working on innovative projects in both corporate and academic environments. I am committed to continuous learning and want to contribute to advances that make a meaningful difference.
 </p>
@@ -24,7 +20,7 @@ Want to learn more about me? Just ask my personal chatbot and start a conversati
 -->
 <div style="margin-top: 10px;">
   <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" target="_blank">
-    <img src="/images/Hintergrund.png" alt="Chat with Lennart" style="width: 50px; border-radius: 50%; border: 2px solid #ddd; padding: 5px;">
+    <img src="/images/Hintergrund.png" alt="Chat with Lennart" style="width: 100px; border-radius: 50%; border: 2px solid #ddd; padding: 5px;">
   </a>
 </div>
 <div style="margin-top: 20px;">
