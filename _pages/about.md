@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="text-align: center;">
-  <img src="/images/Hintergrund.jpg" alt="Hintergrund" style="width: 200px; border-radius: 50%; border: 2px solid #ddd; padding: 5px;">
+  <img src="/images/Hintergrund.png" alt="Hintergrund" style="width: 200px; border-radius: 50%; border: 2px solid #ddd; padding: 5px;">
 </div>
 
 <p style="margin-bottom: 0;">
