@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+<div style="text-align: center;">
+  <img src="/images/Hintergrund.jpg" alt="Hintergrund" style="width: 200px; border-radius: 50%; border: 2px solid #ddd; padding: 5px;">
+</div>
+
 <p style="margin-bottom: 0;">
 My name is Lennart Müller, and I am a dedicated professional with a background in finance and computer engineering. I am passionate about utilising data analytics and technology to develop impactful solutions, with a keen interest in using AI and machine learning to solve complex problems. My experience includes developing analytics tools, collaborating with interdisciplinary teams and working on innovative projects in both corporate and academic environments. I am committed to continuous learning and want to contribute to advances that make a meaningful difference.
 </p>
