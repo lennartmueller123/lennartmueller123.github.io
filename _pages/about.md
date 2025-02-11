@@ -17,8 +17,15 @@ My name is Lennart Müller, and I am a dedicated professional with a background 
 <div style="margin-top: 0;">
 Want to learn more about me? Just ask my personal chatbot and start a conversation!
 </div>
+<!-- Old Button
 <div style="margin-top: 10px;">
   <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" target="_blank" style="display: inline-block; padding: 5px 10px; color: white; background-color: #4A4E52; border-radius: 5px; text-decoration: none;">Click here</a>
+</div>
+-->
+<div style="margin-top: 10px;">
+  <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" target="_blank">
+    <img src="/images/Hintergrund.png" alt="Chat with Lennart" style="width: 50px;">
+  </a>
 </div>
 <div style="margin-top: 20px;">
 </div>
