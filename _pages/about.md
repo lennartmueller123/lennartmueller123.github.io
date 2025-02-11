@@ -24,7 +24,7 @@ Want to learn more about me? Just ask my personal chatbot and start a conversati
 -->
 <div style="margin-top: 10px;">
   <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" target="_blank">
-    <img src="/images/Hintergrund.png" alt="Chat with Lennart" style="width: 50px;">
+    <img src="/images/Hintergrund.png" alt="Chat with Lennart" style="width: 50px; border-radius: 50%; border: 2px solid #ddd; padding: 5px;">
   </a>
 </div>
 <div style="margin-top: 20px;">
