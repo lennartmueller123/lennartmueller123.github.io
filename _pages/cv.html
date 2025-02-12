@@ -10,16 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <h1>
-  <a href="/files/CV.pdf" download style="
-    display: inline-block; 
-    padding: 10px 20px; 
-    background-color: #4A4E52; 
-    color: white; 
-    text-decoration: none; 
-    border-radius: 5px; 
-    font-size: 16px;">
-    Download My CV
-  </a>
+  <a href="/files/CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4A4E52; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">Download My CV</a>
 </h1>
 
 <!DOCTYPE html>
@@ -41,45 +32,37 @@ redirect_from:
             margin-bottom: 30px;
         }
         .entry {
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #ddd; /* Adds separation between entries */
-        }
-        .entry:last-child {
-            border-bottom: none;
+            margin-bottom: 15px;
         }
         .entry-header {
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            margin-bottom: 5px;
+            align-items: left;
         }
         .entry-header h3 {
             margin: 0;
             font-size: 1.2em;
+            margin-bottom: 5px;
         }
         .entry-header p {
             margin: 0;
             font-size: 1em;
-            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 5px;
         }
         ul {
-            margin: 5px 0;
-            padding-left: 30px;
+            margin: 10px 0;
+            padding-left: 40px;
         }
         ul li {
             margin-bottom: 5px;
-        }
-        .gmat-score {
-            font-weight: bold;
-            color: #4A4E52; /* Makes score visually stand out */
         }
     </style>
 </head>
 <body>
 
     <div class="section education">
-        <h2>Education</h2>
+        <h2><u>Education</u></h2>
 
         <div class="entry">
             <div class="entry-header">
@@ -115,7 +98,7 @@ redirect_from:
     </div>
 
     <div class="section experience">
-        <h2>Experience</h2>
+        <h2><u>Experience</u></h2>
 
         <div class="entry">
             <div class="entry-header">
@@ -124,7 +107,7 @@ redirect_from:
             </div>
             <p><strong>Intern, Data Science/Analytics</strong></p>
             <ul>
-                <li>Built an AI tool leveraging open-source LLMs to extract ontologies from unstructured data and generate knowledge graphs</li>
+                <li>Built an AI Tool that leverages open-source LLMs to extract ontologies from unstructured data and creates knowledge graphs based on that</li>
             </ul>
         </div>
 
@@ -135,16 +118,29 @@ redirect_from:
             </div>
             <p><strong>Assistant, Corporate Banking – Large Corporates & SME/Midcap</strong></p>
             <ul>
-                <li>Evaluated client financing requests by preparing financial analyses and conducting market and competitive research</li>
-                <li>Developed an interactive tool for comprehensive client portfolio overview</li>
-                <li>Designed an Excel dashboard for KPI tracking and internal benchmarking</li>
-                <li>Supervised and coordinated tasks among working students to optimize workflow</li>
+                <li>Evaluated client financing requests by preparing financial analyses and conducting market and competitive research to support credit decisions</li>
+                <li>Contributed to the creation of an interactive tool providing a comprehensive client portfolio overview</li>
+                <li>Designed an Excel dashboard for KPI tracking and internal benchmarking to improve decision-making and efficiency across the departments</li>
+                <li>Supervised and coordinated tasks among working students in the corporate banking team, ensuring effective task distribution and smooth workflow management</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <h3>Pickware GmbH</h3>
+                <p>Darmstadt, Germany | Nov. 2018 – Oct. 2019</p>
+            </div>
+            <p><strong>Assistant, Business Development</strong></p>
+            <ul>
+                <li>Engaged with and advised potential clients online and at trade fairs, offering tailored product demonstrations to drive customer acquisition</li>
+                <li>Diagnosed and resolved software issues for customers</li>
+                <li>Collaborated with cross-functional teams to manage product development, aligning with customer demands</li>
             </ul>
         </div>
     </div>
 
     <div class="section skills">
-        <h2>Skills</h2>
+        <h2><u>Skills</u></h2>
         <ul>
             <li><strong>Technology:</strong> Python, Java, R</li>
             <li><strong>Languages:</strong> German, English</li>
@@ -152,21 +148,19 @@ redirect_from:
         </ul>
     </div>
 
-    <div class="section tests">
-        <h2>Tests</h2>
+      <div class="section tests">
+        <h2><u>Tests</u></h2>
 
         <div class="entry">
             <div class="entry-header">
-                <h3>GMAT <span style="font-weight: normal;">(Graduate Management Admission Test)</span></h3>
+                <h3>GMAT<span style="font-weight: normal;">(Graduate Management Admission Test)</span></h3>
                 <p>Online | Mar. 2022</p>
             </div>
-            <p class="gmat-score">Score: 680 (78% Percentile)</p>
+            <p><strong>Score: 680 (78% Percentile)</strong></p>
             <ul>
-                <li><strong>Quantitative Reasoning:</strong> 46 Points, 50% Percentile</li>
-                <li><strong>Verbal Reasoning:</strong> 46 Points, 50% Percentile</li>
+                <li><strong>Quantitative Reasoning: </strong>46 Points, 50% Percentile </li>
+                <li><strong>Verbal Reasoning: </strong>46 Points, 50% Percentile </li>
             </ul>
         </div>
-    </div>
-
 </body>
 </html>
