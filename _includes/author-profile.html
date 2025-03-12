@@ -30,7 +30,7 @@
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li><a href="{{ author.employer_uri }}"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].employer_label | default: "Employer" }}</a></li>
+        <li><a href="{{ author.employer_uri }}"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer | default: "Employer" }}</a></li>
       {% endif %}
       {% if author.university %}
         <li class="author__desktop"><i class="fas fa-fw fa-graduation-cap icon-pad-right" aria-hidden="true"></i>{{ author.university }}</li>
