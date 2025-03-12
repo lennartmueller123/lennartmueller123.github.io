@@ -28,6 +28,7 @@ author:
   location         : "California (USA)"
   employer         : "Xendat Data & Analytics"
   university       : "University of California, Irvine"
+  employer_uri     : "https://xendat.com"
   uri              : # URL
   email            : "lennart26mueller@yahoo.de"
 
