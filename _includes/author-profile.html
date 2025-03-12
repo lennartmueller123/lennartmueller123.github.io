@@ -31,13 +31,9 @@
       {% endif %}
       {% if author.employer %}
         <li class="author__desktop">
-         <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>
-         {% if author.employer_uri %}
-           <a href="{{ author.employer_uri }}" target="_blank" rel="noopener noreferrer">{{ author.employer }}</a>
-         {% else %}
-          {{ author.employer }}
-         {% endif %}
-       </li>
+        <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{% if author.employer_uri %}<a href="{{ author.employer_uri }}" target="_blank" rel="noopener noreferrer">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}
+        </li>
+      {% endif %}
       {% endif %}
       {% if author.university %}
         <li class="author__desktop"><i class="fas fa-fw fa-graduation-cap icon-pad-right" aria-hidden="true"></i>{{ author.university }}</li>
