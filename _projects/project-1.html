@@ -1,1 +1,59 @@
+---
+title: "Ontology Extraction POC"
+excerpt: |
+  Python Project for Transforming Unstructured Data into Structured Ontologies <br/>
+  <a href="/images/Markowitz Optimizer.png">
+    <img src="/images/Markowitz Optimizer.png" alt="Markowitz Optimizer">
+  </a>
+collection: projects
+---
 
+<a href="/images/Markowitz Optimizer.png">
+  <img src="/images/Markowitz Optimizer.png" alt="Markowitz Optimizer" class="hover-effect" style="width:800px">
+</a>
+
+<div>
+</div>
+<br/>
+This project is an Ontology Extraction tool built with Python and LangChain, leveraging large language models to convert raw text, PDF, and CSV data into structured knowledge graphs and ontologies.<br/>
+<br/>
+This project is an Ontology Extraction tool built with Python and LangChain, leveraging large language models to convert raw text, PDF, and CSV data into structured knowledge graphs and ontologies.<br/>
+
+<p style="font-weight: bold;">Key Features:</p>
+<ol>
+  <li>
+    <strong>Flexible Input Handling:</strong><br/>
+    Automatically parses text, PDF, and CSV files, splitting large documents into manageable chunks for reliable processing.
+  </li>
+  <li>
+    <strong>LLM-Powered Extraction:</strong><br/>
+    Uses LangChain’s <code>LLMGraphTransformer</code> with models like Google Gemini or a local Ollama instance to identify entities and relationships.
+  </li>
+  <li>
+    <strong>Iterative Ontology Building:</strong><br/>
+    Processes each chunk through multiple extraction iterations, stopping when no new triplets are found to ensure completeness.
+  </li>
+  <li>
+    <strong>Ontology Enrichment:</strong><br/>
+    Infers and adds hierarchical <code>SUBCLASS_OF</code> relations automatically, building richer ontological hierarchies.
+  </li>
+  <li>
+    <strong>Data Aggregation & Export:</strong><br/>
+    Consolidates all extracted triplets into a Pandas DataFrame for deduplication, analytics, or export (e.g., CSV).
+  </li>
+  <li>
+    <strong>Visualization Suite:</strong><br/>
+    - Static graphs via NetworkX and Matplotlib<br/>
+    - Interactive web UI (Vis.js) for exploring both the raw knowledge graph and the extracted ontology, complete with table views and debug output.
+  </li>
+</ol>
+
+<br/>
+<div style="margin-top: 20px;"></div>
+<h1>
+  <a href="https://github.com/yourusername/OntologyExtractionProject" 
+     target="_blank" 
+     style="display: inline-block; padding: 10px 20px; background-color: #4A4E52; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">
+    GitHub Project
+  </a>
+</h1>
