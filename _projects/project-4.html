@@ -1,33 +1,37 @@
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<body>
+  <div id="particles-js" style="position: fixed; width: 100%; height: 100%; z-index: -1;"></div>
 
-<div id="particles-js" style="position:absolute; width:100%; height:100%; z-index:-1;"></div>
+  <div style="position: relative; z-index: 1; padding: 50px; color: white;">
+    <!-- Dein bisheriger Projektinhalt z. B. Titel, Bild, Beschreibung, Link -->
+    title: "Test"
+excerpt: |
+  Test <br/>
+  <a href="/images/Markowitz Optimizer.png">
+    <img src="/images/Markowitz Optimizer.png" alt="Markowitz Optimizer">
+  </a>
+collection: projects
+---
 
-<script>
-  particlesJS("particles-js", {
-    "particles": {
-      "number": {
-        "value": 50
+<a href="/images/Markowitz Optimizer.png">
+  <img src="/images/Markowitz Optimizer.png" alt="Markowitz Optimizer" class="hover-effect" style="width:800px">
+</a>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 100 },
+        "size": { "value": 2 },
+        "move": { "speed": 0.8 },
+        "line_linked": { "enable": true, "opacity": 0.15 }
       },
-      "size": {
-        "value": 3
-      },
-      "move": {
-        "enable": true,
-        "speed": 2
-      },
-      "line_linked": {
-        "enable": true,
-        "distance": 150,
-        "opacity": 0.4
-      }
-    },
-    "interactivity": {
-      "events": {
-        "onhover": {
-          "enable": true,
-          "mode": "repulse"  // oder "grab", "bubble"
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" }
         }
       }
-    }
-  });
-</script>
+    });
+  </script>
+</body>
