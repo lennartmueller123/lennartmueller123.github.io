@@ -27,5 +27,26 @@ layout: compress
 
     {% include scripts.html %}
 
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (document.getElementById("particles-js")) {
+      particlesJS("particles-js", {
+        "particles": {
+          "number": { "value": 80 },
+          "size": { "value": 2 },
+          "move": { "speed": 0.8 },
+          "line_linked": { "enable": true, "opacity": 0.1 }
+        },
+        "interactivity": {
+          "events": {
+            "onhover": { "enable": true, "mode": "repulse" }
+          }
+        }
+      });
+    }
+  });
+</script>
+
   </body>
 </html>
