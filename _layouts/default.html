@@ -32,20 +32,23 @@ layout: compress
   document.addEventListener('DOMContentLoaded', function () {
     if (document.getElementById("particles-js")) {
       particlesJS("particles-js", {
-        "particles": {
-          "number": { "value": 200 },
-          "size": { "value": 2 },
-          "move": { "speed": 2 },
-          "line_linked": { "enable": true, "opacity": 0.1 }
-        },
-        "interactivity": {
-          "events": {
-            "onhover": { "enable": true, "mode": "repulse" }
-          }
-        }
-      });
+    "particles": {
+    "number": { "value": 600 },
+    "size": { "value": 4 },
+    "color": { "value": "#000000" }, // hier die Farbe ändern
+    "move": { "speed": 5.0 },
+    "line_linked": {
+      "enable": true,
+      "opacity": 0.5,
+      "color": "#000000" // Linienfarbe anpassen
     }
-  });
+  },
+  "interactivity": {
+    "events": {
+      "onhover": { "enable": true, "mode": "repulse" }
+    }
+  }
+});
 </script>
 
   </body>
