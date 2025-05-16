@@ -29,21 +29,39 @@ permalink: /markowitz/
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 <script>
   particlesJS("particles-js", {
-    "particles": {
-      "number": { "value": 500 },
-      "size": { "value": 2 },
-      "move": { "speed": 3.0 },
-      "color": { "value": "#FFFFFF" },
-      "line_linked": { 
-        "enable": true, 
-        "opacity": 0.5,
-        "color": "#FFFFFF"
+    particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 80 },
+    "size": { "value": 2 },
+    "color": { "value": "#FFFFFF" }, // initial particle color
+    "move": { "speed": 2 },
+    "line_linked": {
+      "enable": true,
+      "opacity": 0.3,
+      "color": "#FFFFFF"
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"  // Adds new particles
       }
     },
-    "interactivity": {
-      "events": {
-        "onhover": { "enable": true, "mode": "repulse" }
+    "modes": {
+      "push": {
+        "quantity": 4,
+        // 👇 add this to override the color of new particles:
+        "particles_nb": 4,
+        "particles": {
+          "color": { "value": "#00ff99" }  // green particles on click
+        }
       }
     }
-  });
+  }
+});
 </script>
