@@ -1,55 +1,55 @@
 ---
-title: "Markowitz Portfolio Optimizer"
-excerpt: |
-  Python Project on Portfolio Optimization <br/>
-  <a href="/images/Markowitz Optimizer.png">
-    <img src="/images/Markowitz Optimizer.png" alt="Markowitz Optimizer">
-  </a>
-collection: projects
+layout: default
+title: "Particles Test"
+permalink: /markowitz/
 ---
 
-<a href="/images/Markowitz Optimizer.png">
-  <img src="/images/Markowitz Optimizer.png" alt="Markowitz Optimizer" class="hover-effect" style="width:800px">
-</a>
+<!-- Particles Container -->
+<div id="particles-js" style="position: fixed; width: 100%; height: 100%; z-index: -1;"></div>
 
-<div>
-</div>
-<br/>
-This project is a Markowitz Portfolio Optimizer built using Python and the Dash framework. It provides an interactive web application that allows users to create optimized investment portfolios based on their selected:
-<br/>
- - <strong>Investment Time Horizon</strong> (3 Months, 1 Year, 5 Years or 10 Years)
-<br/>
- - <strong>Risk Preference</strong> (Max Sharpe Ratio, Min Volatility, or Specific Risk level)
-<br/>
-<br/>
-<p style="font-weight: bold;">Key Features:</p>
-<ol>
-  <li>
-    <strong>Portfolio Optimization:</strong><br/>
-    Uses financial data from Yahoo Finance to calculate expected returns and covariance matrices, employing the PyPortfolioOpt library for optimization.
-  </li>
-  <li>
-    <strong>Performance Comparison:</strong><br/>
-    Visualizes the cumulative returns of the optimized portfolio versus the Dow Jones Index.
-  </li>
-  <li>
-    <strong>Customizable Risk Levels:</strong><br/>
-    Allows users to target specific levels of volatility if desired.
-  </li>
-  <li>
-    <strong>Performance Metrics:</strong><br/>
-    Provides detailed statistics such as Sharpe Ratio, Annual Returns, Volatility, and more, comparing the optimized portfolio to the benchmark index.
-  </li>
-</ol>
-The app is styled with a futuristic black-and-green color scheme and includes interactive components like dropdowns, input fields, and graphs, making it easy to explore different portfolio strategies.
+<!-- Hauptinhalt -->
+<div style="position: relative; z-index: 1; padding: 50px; color: white;">
+  <h1>{{ page.title }}</h1>
 
-<br/>
-<div style="margin-top: 20px;">
-</div>
-<h1>
+  <a href="/assets/images/Markowitz%20Optimizer.png">
+    <img src="/assets/images/Markowitz%20Optimizer.png" alt="Markowitz Optimizer" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.5);">
+  </a>
+
+  <p>This project is a Markowitz Portfolio Optimizer built using Python and the Dash framework. It provides an interactive web application that allows users to create optimized investment portfolios based on their selected:</p>
+  <ul>
+    <li><strong>Investment Time Horizon:</strong> 3 Months, 1 Year, 5 Years or 10 Years</li>
+    <li><strong>Risk Preference:</strong> Max Sharpe Ratio, Min Volatility, or Specific Risk level</li>
+  </ul>
+
+  <p><strong>Key Features:</strong></p>
+  <ol>
+    <li><strong>Portfolio Optimization:</strong> Uses Yahoo Finance + PyPortfolioOpt</li>
+    <li><strong>Performance Comparison:</strong> Cumulative return vs Dow Jones</li>
+    <li><strong>Customizable Risk Levels:</strong> User-specified volatility</li>
+    <li><strong>Performance Metrics:</strong> Sharpe, Returns, Volatility, etc.</li>
+  </ol>
+
   <a href="https://github.com/lennartmueller123/MarkowitzPortfolioOptimizer/tree/main" 
      target="_blank" 
-     style="display: inline-block; padding: 10px 20px; background-color: #4A4E52; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">
-    Github Project
+     style="display: inline-block; padding: 12px 24px; background-color: #00ff99; color: #000; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+    👉 View on GitHub
   </a>
-</h1>
+</div>
+
+<!-- Particles.js -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": { "value": 80 },
+      "size": { "value": 2 },
+      "move": { "speed": 0.8 },
+      "line_linked": { "enable": true, "opacity": 0.1 }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": { "enable": true, "mode": "repulse" }
+      }
+    }
+  });
+</script>
