@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Fish Tank"
-permalink: /fishtank/
+title: "Particles Webpage"
+permalink: /particles/
 ---
 
 <style>
@@ -18,43 +18,60 @@ permalink: /fishtank/
   }
 </style>
 
-<!-- Particles Container -->
-<div id="particles-js" style="position: fixed; width: 100%; height: 100%;"></div>
-
 <!-- Hauptinhalt -->
 <div padding: 50px; color: white;">
   <h1>{{ page.title }}</h1>
+  <p>🐟 Bewege die Maus und beobachte die Fische 🐟</p>
 
 <!-- Particles.js -->
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+<div id="tsparticles" style="position: fixed; width: 100vw; height: 100vh;"></div>
 <script>
-  particlesJS("particles-js", {
-  "particles": {
-    "number": { "value": 5 },
-    "shape": {
-      "type": "image",
-      "image": {
-        "src": "/images/Fisch.png",
-        "width": 100,
-        "height": 100
+  tsParticles.load("tsparticles", {
+    fpsLimit: 60,
+    background: { color: "#000" },
+    particles: {
+      number: { value: 10, density: { enable: false } },
+      collisions: { enable: true }, // Überlappungen werden verhindert!
+      move: {
+        enable: true,
+        speed: 2,
+        direction: "none",
+        random: false,
+        straight: false,
+        outModes: { default: "bounce" }, // Partikel prallen ab
+        // Für Strömungen/Flows:
+        path: {
+          enable: true,
+          options: {
+            // Beispiel für Perlin Noise Bewegung ("strömend")
+            type: "noise",
+            noise: { enable: true, scale: 2 }
+          }
+        }
+      },
+      shape: {
+        type: "image",
+        image: [
+          {
+            src: "/images/Fisch.png",
+            width: 100,
+            height: 100
+          }
+        ]
+      },
+      size: {
+        value: 32,
+        random: { enable: true, minimumValue: 20 }
       }
     },
-    "size": {
-      "value": 20,
-      "random": true
-    },
-    "move": {
-      "enable": true,
-      "speed": 2
-    }
-  },
-  "interactivity": {
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "repulse"
+    interactivity: {
+      events: {
+        onHover: { enable: true, mode: "repulse" }
+      },
+      modes: {
+        repulse: { distance: 100, duration: 0.4 }
       }
     }
-  }
-});
+  });
 </script>
