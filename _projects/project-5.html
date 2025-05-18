@@ -5,6 +5,16 @@ permalink: /fishtank/
 ---
 
 <style>
+  body {
+    margin: 0;
+    background-color: #000;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
   #tsparticles {
     position: fixed;
     width: 100%;
@@ -13,16 +23,11 @@ permalink: /fishtank/
     pointer-events: none;
   }
 
-  body {
-    margin: 0;
-    background-color: #000;
-    color: white;
-  }
-
   .content {
     position: relative;
     z-index: 1;
     padding: 60px;
+    text-align: center;
   }
 </style>
 
@@ -42,7 +47,7 @@ permalink: /fishtank/
     fullScreen: { enable: false },
     fpsLimit: 60,
     background: {
-      color: "#000000"  // #001f2f
+      color: "#000000"
     },
     particles: {
       number: {
@@ -58,7 +63,7 @@ permalink: /fishtank/
       shape: {
         type: "image",
         image: {
-          src: "/images/Fisch.png",
+          src: "{{ '/assets/images/Fisch.png' | relative_url }}", // passe den Pfad ggf. an!
           width: 64,
           height: 64
         }
@@ -79,7 +84,7 @@ permalink: /fishtank/
       move: {
         enable: true,
         speed: 1.5,
-        direction: "none",   // kann z.B. "right" sein für echten Strom
+        direction: "none",
         random: true,
         straight: false,
         outModes: {
@@ -98,7 +103,7 @@ permalink: /fishtank/
       events: {
         onHover: {
           enable: true,
-          mode: "attract"  // 🧲 zieht Fische zur Maus!
+          mode: "attract"
         },
         onClick: {
           enable: true,
