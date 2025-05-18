@@ -7,6 +7,10 @@ permalink: /fishtank/
 <style>
   body {
     margin: 0;
+    <!-- 
+    background-color: #000;
+    -->
+    color: white;
   }
 
   #particles-js {
@@ -25,29 +29,32 @@ permalink: /fishtank/
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 <script>
   particlesJS("particles-js", {
-    "particles": {
-      "number": { "value": 5 },
-      "size": { "value": 2 },
-      "move": { "speed": 3.0 },
-      "color": { "value": "#FFFFFF" },
-      "line_linked": { 
-        "enable": false
-      },
+  "particles": {
+    "number": { "value": 5 },
+    "shape": {
+      "type": "image",
       "image": {
         "src": "/images/Fisch.png",
         "width": 100,
         "height": 100
-      },
+      }
     },
     "size": {
-      "value": 50,
+      "value": 20,
       "random": true
     },
-    },
-    "interactivity": {
-      "events": {
-        "onhover": { "enable": true, "mode": "repulse" }
+    "move": {
+      "enable": true,
+      "speed": 2
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
       }
     }
-  });
+  }
+});
 </script>
