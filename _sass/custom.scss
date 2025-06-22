@@ -1,1 +1,11 @@
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem; // optional: adds spacing between h3 and p
+}
 
+.entry-header h3,
+.entry-header p {
+  margin: 0;
+}
