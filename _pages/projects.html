@@ -7,9 +7,36 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Top full-width image banner -->
-<div style="width: 100%; height: 450px; overflow: hidden; margin-bottom: 20px;">
-  <img src="/images/Hintergrund.png" alt="Projects Banner" style="width: 100%; height: 100%; object-fit: cover;">
+<style>
+  #particles-banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: transparent;
+  }
+  #banner-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+</style>
+
+<!-- Top full-width image banner with particles overlay -->
+<div id="particles-banner">
+  <div id="particles-js"></div>
+  <img src="/images/Hintergrund.png" alt="Projects Banner" id="banner-image">
 </div>
 
 <!-- Project grid layout inside the archive content -->
@@ -29,3 +56,26 @@ author_profile: true
     </div>
   </div>
 </div>
+
+<!-- Particles.js -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": { "value": 500 },
+      "size": { "value": 2 },
+      "move": { "speed": 3.0 },
+      "color": { "value": "#FFFFFF" },
+      "line_linked": {
+        "enable": true,
+        "opacity": 0.5,
+        "color": "#FFFFFF"
+      }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": { "enable": true, "mode": "repulse" }
+      }
+    }
+  });
+</script>
