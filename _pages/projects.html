@@ -39,9 +39,8 @@ author_profile: true
 </div>
 
 <!-- Project grid layout inside the archive content -->
-<div class="archive">
-  <div style="margin-left: 0; padding: 0 10px; box-sizing: border-box;">
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
+<div class="archive" style="padding: 0 10px; box-sizing: border-box; width: 100%;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
       {% for post in site.projects %}
         <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; text-align: center; padding: 10px;">
           <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
@@ -52,7 +51,6 @@ author_profile: true
           </a>
         </div>
       {% endfor %}
-    </div>
   </div>
 </div>
 
