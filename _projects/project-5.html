@@ -45,9 +45,18 @@ permalink: /fishtank/
       "random": false
     },
     "move": {
-      "enable": true,
-      "speed": 5
-    }
+        enable: true,
+        speed: 2,
+        direction: 'right',
+        random: true,
+        straight: false,
+        out_mode: 'out',
+        bounce: false,
+        attract: {
+          enable: false,
+          rotateX: 3000,
+          rotateY: 3000
+        }
   },
   "interactivity": {
     "events": {
