@@ -45,7 +45,7 @@ author_profile: true
 <!-- Project grid layout inside the archive content -->
 <div class="archive" style="padding: 0 10px; box-sizing: border-box; width: 100%;">
   
-  {% assign topic_order = "Python,Dashboard,HTML, Others" | split: "," %}
+  {% assign topic_order = "Python,Dashboard,HTML,Others" | split: "," %}
 
     {% for topic in topic_order %}
     {% assign posts_by_topic = site.projects | where: "topic", topic %}
