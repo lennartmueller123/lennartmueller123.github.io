@@ -17,40 +17,45 @@ topic:  "Python"
 <div>
 </div>
 <br/>
-This project is the final Capstone of the Google Advanced Data Analytics Certificate. It simulates a real-world consulting scenario for Cyclistic, a fictional bike-sharing company in Chicago, to uncover data-driven insights that inform business decisions and strategic marketing efforts.
-<br/>
+This capstone project from the Google Advanced Data Analytics Certificate addresses high employee turnover at Salifort Motors by building predictive models and identifying key factors influencing attrition.<br/>
 
 <br/>
 <p style="font-weight: bold;">Key Features:</p>
 <ol>
   <li>
-    <strong>Business Problem Definition:</strong><br/>
-    The primary goal was to understand the behavioral differences between casual riders and annual members and identify data-backed strategies to convert casual riders into subscribers.
-  </li>
-  <li>
-    <strong>Robust Data Cleaning & Preparation:</strong><br/>
-    12 months of ride data were wrangled using Pandas, including handling nulls, outliers, and inconsistent formatting across over 5.6 million rows.
-  </li>
-  <li>
     <strong>Exploratory Data Analysis (EDA):</strong><br/>
-    Applied descriptive statistics, correlation matrices, and visual analytics to extract trends in ride duration, frequency, day-of-week usage, and station patterns using Seaborn and Matplotlib.
+    Detailed visualizations and summary statistics revealed patterns in satisfaction levels, project load, and work hours across departments.
   </li>
   <li>
-    <strong>Key Insights:</strong><br/>
-    Casual riders were more likely to ride on weekends, use docked bikes, and have shorter trip durations—insights that shaped targeted marketing recommendations.
+    <strong>Feature Engineering:</strong><br/>
+    Converted categorical variables, removed outliers, and created binary features like <code>overworked</code> for enhanced model performance.
   </li>
   <li>
-    <strong>Actionable Recommendations:</strong><br/>
-    Suggested strategies include incentivized loyalty programs, targeted weekday promotions, and app-based nudging to convert casual users to members.
+    <strong>Logistic Regression:</strong><br/>
+    Built an interpretable statistical model to establish baseline accuracy (~83%) and reveal linear relationships between features and turnover.
   </li>
   <li>
-    <strong>Presentation & Storytelling:</strong><br/>
-    Delivered results through a Jupyter Notebook and professional visual dashboard, translating technical findings into actionable business language for non-technical stakeholders.
+    <strong>Tree-Based Machine Learning:</strong><br/>
+    Tuned decision tree and random forest classifiers via GridSearchCV. The random forest achieved:
+    <ul>
+      <li><strong>Accuracy:</strong> 98.1%</li>
+      <li><strong>Precision:</strong> 96.4%</li>
+      <li><strong>Recall:</strong> 91.9%</li>
+      <li><strong>F1-score:</strong> 94.1%</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Feature Importance & Insights:</strong><br/>
+    Top predictors included <code>last_evaluation</code>, <code>number_project</code>, <code>tenure</code>, and <code>overworked</code>. Insights led to actionable HR recommendations.
+  </li>
+  <li>
+    <strong>Business Impact:</strong><br/>
+    The model helps reduce turnover costs by identifying high-risk employees early and improving retention through targeted HR strategies.
   </li>
 </ol>
 
 <br/>
-<div style="margin-top: 10px;">
+<div style="margin-top: 5px;">
 </div>
 <h1>
   <a href="https://github.com/lennartmueller123/Google-Advanced-Data-Analytics-Capstone-Project/tree/main" 
