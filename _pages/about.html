@@ -1,0 +1,84 @@
+---
+layout: default
+permalink: /
+title: "About Lennart Müller"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<style>
+  .page__title {
+    margin: 0;
+  }
+  #particles-banner {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: transparent;
+  }
+  #banner-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    z-index: 0;
+  }
+</style>
+
+<!-- Top full-width image banner with particles overlay -->
+<div id="particles-banner">
+  <div id="particles-js"></div>
+  <img src="/images/Hintergrund3.png" alt="About Banner" id="banner-image">
+</div>
+
+<main class="container">
+  <p style="margin-bottom: 0;">
+    My name is Lennart Müller, and I am a dedicated professional with a background in finance and computer engineering. I am passionate about utilising data analytics and technology to develop impactful solutions, with a keen interest in using AI and machine learning to solve complex problems. My experience includes developing analytics tools, collaborating with interdisciplinary teams and working on innovative projects in both corporate and academic environments. I am committed to continuous learning and want to contribute to advances that make a meaningful difference.
+  </p>
+
+  <div style="margin-top: 0;">
+    Want to learn more about me? Just ask my personal chatbot and start a conversation!
+  </div>
+
+  <div style="margin-top: 10px;">
+    <a href="https://chatgpt.com/g/g-673d31d1e5c08191ba939ead6158795f-lennart-muller" target="_blank">
+      <img src="/images/Hintergrund.png" alt="Chat with Lennart" style="width: 150px; border-radius: 50%; border: 2px solid #ddd; padding: 5px;">
+    </a>
+  </div>
+</main>
+
+<!-- Particles.js -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": { "value": 500 },
+      "size": { "value": 2 },
+      "move": { "speed": 3.0 },
+      "color": { "value": "#FFFFFF" },
+      "line_linked": {
+        "enable": true,
+        "opacity": 0.5,
+        "color": "#FFFFFF"
+      }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": { "enable": true, "mode": "repulse" }
+      }
+    }
+  });
+</script>
