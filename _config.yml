@@ -27,8 +27,9 @@ author:
   bio              : "Data-driven corporate banking analyst and data science professional with experience in financial analysis, predictive analytics, and AI-powered data solutions"
   location         : "Munich, Germany 🇩🇪"
   employer         : "Oliver Wyman"
-  university       : "Technical University of Munich"
   employer_uri     : "https://www.oliverwyman.com/index.html"
+  university       : "Technical University of Munich"
+  university_uri   : "https://https://www.tum.de/ueber-die-tum/daten-und-fakten/rankings"
   uri              : # URL
   email            : "lennart26mueller@yahoo.de"
 
